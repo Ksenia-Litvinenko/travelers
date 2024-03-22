@@ -1,0 +1,84 @@
+@media screen and (max-width: 425px) {
+    header{
+        height: 80px;
+    }
+
+    .logotype{
+        height: 20%;
+    }
+    .nav_ul, .footer_logotype, .mug{
+        display: none;
+    }
+
+    .container{
+        row-gap:1%;
+    }
+
+    .p_costs{
+        height: 100%;
+    }
+
+    .section_plan, .section_costs, .section_photo, .section_text, .section_impression{
+        display: grid;
+        grid-column: 2/12;
+    }
+
+    .section_costs{
+        grid-row: 5/6;
+    }
+
+    .section_text{
+        grid-row: 7/8;
+    }
+
+    .section_photo{
+        grid-row: 6/7;
+    }
+
+    .section_impression{
+        grid-row: 8/9;
+    }
+
+    .h1_section{
+        font-size: 24px;
+    }
+
+    .car_h3{
+        font-size: 11px;
+    }
+
+    p{
+        font-size: 9px;
+    }
+
+    .camera, .azov{
+        margin-bottom: 9%;
+    }
+
+    .section_car-flex, .section_plan-content, .section_costs-content, .photo_photo, .section_impression-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .photo_photo{
+        height: 100%;
+    }
+
+    .content_section-car, .car, .p_impression, .azov{
+        width: 100%;
+    }
+
+    
+    .img_plan{
+        height: 100%;
+    }
+
+    .footer_flex{
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        height: 60px;
+    }
+}
