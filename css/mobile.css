@@ -14,9 +14,7 @@
         row-gap:1%;
     }
 
-    .p_costs{
-        height: 100%;
-    }
+    
 
     .section_plan, .section_costs, .section_photo, .section_text, .section_impression{
         display: grid;
@@ -40,18 +38,18 @@
     }
 
     .h1_section{
-        font-size: 24px;
+        font-size: 17px;
     }
 
     .car_h3{
-        font-size: 11px;
+        font-size: 13px;
     }
 
     p{
-        font-size: 9px;
+        font-size: 11px;
     }
 
-    .camera, .azov{
+     .azov{
         margin-bottom: 9%;
     }
 
@@ -80,5 +78,9 @@
 
     footer{
         height: 60px;
+    }
+
+    .map, .camera{
+        height: 58%;
     }
 }
