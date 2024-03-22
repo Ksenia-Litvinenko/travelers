@@ -73,7 +73,7 @@ header{
 }
 
 p{
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .section_plan{
@@ -180,4 +180,10 @@ footer{
     margin: 0 auto;
     height: 100%;
 }
+
+.mug, .camera, .map{
+    height: 45.5%;
+}
+
+
 
